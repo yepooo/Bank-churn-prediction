@@ -91,49 +91,19 @@ Overall, the business insights gleaned from the churn prediction model and the o
 
 ## Model Performance:
 
-<div style="display: flex; justify-content: space-between;">
-  <div style="flex-basis: 30%; margin: 10px;">
-    <img src="model_performance/best_model-roc.png" alt="Best model-ROC" width="100%">
-  </div>
-  <div style="flex-basis: 30%; margin: 10px;">
-    <img src="model_performance/model_accuracy.png" alt="Model Accuracy" width="100%">
-  </div>
-  <div style="flex-basis: 30%; margin: 10px;">
-    <img src="model_performance/roc_auc.png" alt="ROC-AUC" width="100%">
-  </div>
-</div>
+| Best model-ROC                                          | Model Accuracy                                          | ROC-AUC                                   |
+| ------------------------------------------------------- | ------------------------------------------------------- | ----------------------------------------- |
+| ![best_model-roc](model_performance/best_model-roc.png) | ![model_accuracy](model_performance/model_accuracy.png) | ![roc-auc](model_performance/roc_auc.png) |
 
 ## Model's Confusion Matrices:
 
-<div style="display: flex; justify-content: space-between;">
-  <div style="flex-basis: 30%; margin: 10px;">
-    <img src="models-cm/best_model_cm.png" alt="Best Model CM" width="100%">
-  </div>
-  <div style="flex-basis: 30%; margin: 10px;">
-    <img src="models-cm/cm-decision_tree.png" alt="CM-Decision Tree" width="100%">
-  </div>
-  <div style="flex-basis: 30%; margin: 10px;">
-    <img src="models-cm/cm-gradient_boost.png" alt="CM-Gradient Boost" width="100%">
-  </div>
-</div>
+| Best Model CM                                 | CM-Decision Tree                                    | CM-Gradient Boost                                     |
+| --------------------------------------------- | --------------------------------------------------- | ----------------------------------------------------- |
+| ![best_model_cm](models-cm/best_model_cm.png) | ![cm-decision_tree](models-cm/cm-decision_tree.png) | ![cm-gradient_boost](models-cm/cm-gradient_boost.png) |
 
-<div style="display: flex; justify-content: space-between;">
-  <div style="flex-basis: 30%; margin: 10px;">
-    <img src="models-cm/cm-knn.png" alt="CM-KNN" width="100%">
-  </div>
-  <div style="flex-basis: 30%; margin: 10px;">
-    <img src="models-cm/cm-logistic_regression.png" alt="CM-Logistic Regression" width="100%">
-  </div>
-  <div style="flex-basis: 30%; margin: 10px;">
-    <img src="models-cm/cm-neural_networks.png" alt="CM-Neural Networks" width="100%">
-  </div>
-</div>
-
-<div style="display: flex; justify-content: space-between;">
-  <div style="flex-basis: 30%; margin: 10px;">
-    <img src="models-cm/cm-random_forest.png" alt="CM-Random Forest" width="100%">
-  </div>
-</div>
+| CM-KNN                          | CM-Neural Networks                                      | CM-Random Forest                                    |
+| ------------------------------- | ------------------------------------------------------- | --------------------------------------------------- |
+| ![cm-knn](models-cm/cm-knn.png) | ![cm-neural_networks](models-cm/cm-neural_networks.png) | ![cm-random_forest](models-cm/cm-random_forest.png) |
 
 ## Churn Analysis Report
 
